@@ -1,0 +1,30 @@
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore virtual environment folders
+venv/
+.env/
+.envrc
+*.env
+
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
+
+# VSCode config files
+.vscode/
+
+# Mac system files
+.DS_Store
+
+# Log and DB files
+*.log
+*.sqlite3
+
+# Ignore Chroma vector DB 
+chroma_db/
+
+# Ignore model weights
+*.pt
+*.bin
